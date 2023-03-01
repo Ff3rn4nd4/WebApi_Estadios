@@ -6,8 +6,8 @@
         public string Fecha { get; set;}
         public string Hora { get; set;}
         //FK 
-        /*public int EstadioId { get; set;}
-        public Estadio Estadio { get; set;}
-        */
+        public List<Estadio> estadios { get; set; }
+        
+
     }
 }

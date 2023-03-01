@@ -12,6 +12,6 @@ namespace WebApi_Estadios
 
         //Bases de datos 
         public DbSet<Partido> Partidos { get; set; }
-        //public DbSet<Estadio> Estadios { get; set; }*/
+        public DbSet<Estadio> Estadios { get; set; }
     }
 }

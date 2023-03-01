@@ -3,8 +3,9 @@
     "",
     "\\WebApi_Estadios",
     "\\WebApi_Estadios\\Controllers",
-    "\\WebApi_Estadios\\Entidades"
+    "\\WebApi_Estadios\\Entidades",
+    "\\WebApi_Estadios\\Migrations"
   ],
-  "SelectedNode": "\\WebApi_Estadios\\Controllers\\PartidosController.cs",
+  "SelectedNode": "\\WebApi_Estadios\\Entidades\\Partido.cs",
   "PreviewInSolutionExplorer": false
 }

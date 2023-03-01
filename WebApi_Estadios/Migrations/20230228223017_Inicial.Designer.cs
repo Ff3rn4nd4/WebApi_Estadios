@@ -11,7 +11,7 @@ using WebApi_Estadios;
 namespace WebApi_Estadios.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230226062419_Inicial")]
+    [Migration("20230228223017_Inicial")]
     partial class Inicial
     {
         /// <inheritdoc />

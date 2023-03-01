@@ -34,7 +34,7 @@ namespace WebApi_Estadios.Controllers
         [HttpGet]
         public async Task<ActionResult<List<Partido>>> Get()
         {
-            return await dbContext.Partidos.ToListAsync();
+            return await dbContext.Partidos.Include(x => x.estadios).ToListAsync();
         }
 
         //metodo post

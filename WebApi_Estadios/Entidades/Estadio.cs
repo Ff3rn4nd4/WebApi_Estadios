@@ -7,6 +7,9 @@
         public string Ubicacion { get; set; }
         public int Capacidad { get; set; }
 
-        //public List<Partido> partidos { get; set; }
+        public int PartidoId { get; set; }
+        public Partido Partido { get; set; }
+
+
     }
 }
