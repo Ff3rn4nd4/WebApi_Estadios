@@ -18,8 +18,8 @@ namespace WebApi_Estadios.Controllers
         }
 
         //metodo get
-        [HttpGet]
-        public async Task<ActionResult<List<Estadio>>> Get()
+        [HttpGet("Lista")]
+        public async Task<ActionResult<List<Estadio>>> GetAll()
         {
             return await dbContext.Estadios.ToListAsync();
         }
