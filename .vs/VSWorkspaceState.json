@@ -6,6 +6,6 @@
     "\\WebApi_Estadios\\Entidades",
     "\\WebApi_Estadios\\Migrations"
   ],
-  "SelectedNode": "\\WebApi_Estadios\\Controllers\\EquiposLocalesController.cs",
+  "SelectedNode": "\\WebApi_Estadios\\Controllers\\PartidosController.cs",
   "PreviewInSolutionExplorer": false
 }

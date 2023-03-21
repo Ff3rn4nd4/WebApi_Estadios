@@ -9,7 +9,7 @@ namespace WebApi_Estadios.Entidades
         public string NombreEquipoV { get; set; }
         public string CiudadVisitante { get; set; }
         // relacionando datos 
-        //public int PartidoId { get; set; }
-        //public Partido Partido { get; set; }
+        public int PartidoId { get; set; }
+        public Partido Partido { get; set; }
     }
 }

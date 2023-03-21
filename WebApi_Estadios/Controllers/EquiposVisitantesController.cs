@@ -11,7 +11,7 @@ namespace WebApi_Estadios.Controllers
 
     public class EquiposVisitantesController: ControllerBase
     {
-        /*private readonly ApplicationDbContext dbContext;
+        private readonly ApplicationDbContext dbContext;
 
         public EquiposVisitantesController(ApplicationDbContext context)
         {
@@ -83,6 +83,6 @@ namespace WebApi_Estadios.Controllers
             dbContext.Remove(new EquipoVisitante { Id = id });
             await dbContext.SaveChangesAsync();
             return Ok();
-        }*/
+        }
     }
 }

@@ -14,6 +14,6 @@ namespace WebApi_Estadios
         public DbSet<Partido> Partidos { get; set; }
         public DbSet<Estadio> Estadios { get; set; }
         public DbSet<EquipoLocal> EquiposLocales { get; set; }
-        //public DbSet<EquipoVisitante> EquiposVisitantes { get; set; }
+        public DbSet<EquipoVisitante> EquiposVisitantes { get; set; }
     }
 }

@@ -13,7 +13,7 @@ namespace WebApi_Estadios.Entidades
         //FK 
         public List<Estadio> estadios { get; set; }
         public List<EquipoLocal> equiposLocales { get; set; }
-        //public List<EquipoVisitante> equiposVisitantes { get; set; }
+        public List<EquipoVisitante> equiposVisitantes { get; set; }
 
     }
 }
